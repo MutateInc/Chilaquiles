@@ -9,13 +9,13 @@ const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   url: 'https://Mutate.github.io',
-  baseUrl: ' /Chilaquiles/',
+  baseUrl: '/Chilaquiles/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Mutateinc', // Usually your GitHub org/user name.
   projectName: 'Chilaquiles', // Usually your repo name.
-  trailingSlash: true,
+  trailingSlash: false,
   presets: [
     [
       'classic',

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkchilaquiles=self.webpackChunkchilaquiles||[]).push([[850],{8989:function(s){s.exports=JSON.parse('{"allTagsPath":" /Chilaquiles/blog/tags","name":"docusaurus","count":4,"permalink":" /Chilaquiles/blog/tags/docusaurus"}')}}]);

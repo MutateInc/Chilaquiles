@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchilaquiles=self.webpackChunkchilaquiles||[]).push([[849],{5454:function(e){e.exports=JSON.parse('{"permalink":" /Chilaquiles/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

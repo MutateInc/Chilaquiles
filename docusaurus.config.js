@@ -6,16 +6,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Chilaquiles',
+  tagline: 'Manual de operaciones',
   url: 'https://Mutate.github.io',
-  baseUrl: ' /Chilaquiles/',
+  baseUrl: '/Chilaquiles/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Mutateinc', // Usually your GitHub org/user name.
   projectName: 'Chilaquiles', // Usually your repo name.
-  trailingSlash: true,
+  trailingSlash: false,
   presets: [
     [
       'classic',

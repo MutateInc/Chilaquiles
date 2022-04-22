@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'Mutateinc', // Usually your GitHub org/user name.
   projectName: 'Chilaquiles', // Usually your repo name.
-  trailingSlash: false,
+  trailingSlash: true,
   presets: [
     [
       'classic',

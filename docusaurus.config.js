@@ -56,7 +56,7 @@ const config = {
             label: 'Documentos',
           },
           {
-            href: 'https://github.com/',
+            href: 'https://github.com/MutateInc/Chilaquiles',
             label: 'GitHub',
             position: 'right',
           },
@@ -75,7 +75,7 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Community', 
             items: [
               {
                 label: 'Stack Overflow',

@@ -75,7 +75,7 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Community', 
             items: [
               {
                 label: 'Stack Overflow',

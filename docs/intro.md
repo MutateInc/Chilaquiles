@@ -13,7 +13,7 @@ Consecuentemente se necesita una forma unificada y práctica para llevar un rast
 
 ## Objetivos
 
-En 15 semanas crear un sistema para monitorear a los alumnos en donde se espera reducir la carga de trabajo de 4 actividades a solo 1.
+En 15 semanas crear un sistema para monitorear a los alumnos en donde se espera reducir la carga de trabajo de 4 actividades a solo 1. 
 
 En 15 semanas incrementar la congruencia entre los datos de validación al reducir el uso de herramientas de 4 aplicaciones a solo una, siendo esta la solución.
 

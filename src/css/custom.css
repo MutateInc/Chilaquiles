@@ -27,6 +27,14 @@
   --ifm-color-primary-lightest: #4fddbf;
 }
 
+html[data-theme='dark'] .navbar .navbar__logo {
+  content: url(../../static/img/dark_logo.svg)
+  }
+
+html[light-theme='light'] .navbar .navbar__logo {
+  content: url(../../static/img/logo.svg)
+  }
+
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;

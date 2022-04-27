@@ -8,6 +8,12 @@ Como instalar el proyecto en tu dispositivo
 - incluye codigo
 - incluye contenido de variables de entorno
 
+### Pre-requisitos
+
+```
+ php v.8
+```
+
 ## Pruebas
 
 Como se ejecutan las pruebas

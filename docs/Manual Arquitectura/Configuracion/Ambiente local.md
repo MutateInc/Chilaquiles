@@ -1,24 +1,129 @@
-## Pre-requisitos
+# Ambiente Local
 
-Que necesitas instalar en tu dispositivo antes de usar el proyecto en tu computadora
+### Pre-Requisitos 📋
 
-## Instrucciones
-
-Como instalar el proyecto en tu dispositivo
-- incluye codigo
-- incluye contenido de variables de entorno
-
-### Pre-requisitos
+_Para poder instalar el proyecto de manera local será necesario contar con lo siguente:_
 
 ```
- php v.8
+php 8.0
 ```
 
-## Pruebas
+```
+Composer 2.0
+```
 
-Como se ejecutan las pruebas
+```
+MySQL / MariaDB 10.4
+```
 
-## Despliegue
+```
+XAMPP o MAMP
+```
 
-Como esta coordinado el despliegue?
 
+### Instalación 🔧
+
+_Para instalar el proyecto de forma local sigua los siguientes pasos y comandos:_
+
+_Descarge el proyecto via git:_
+
+_Ingrese los siguientes comandos en su terminal:_
+
+```cd /path-de-su-eleccion/
+git clone https://github.com/AlbertoMatuteB/APPac.git
+cd /Appac/
+```
+_Instale las dependencias de Laravel/Composer:_
+
+_Ingrese los siguientes comandos en su terminal:_
+```
+composer install
+```
+
+_Copie el contenido del archivo .env.example en un nuevo archivo llamado .env en el mismo path en el que se encuentra:_
+
+_Ingrese los siguientes comandos en su terminal:_
+
+```
+cp .env.example .env
+```
+
+_Agrege la llave única de proyecto:_
+
+_Ingrese los siguientes comandos en su terminal:_
+
+```
+php artisan key:generate
+```
+
+_Configure la base de datos y las migraciones:_
+
+```
+Vaya a su gestor de Base de datos (XAMP o MAMP) e inicie los servicios de MYSQL /MariaDB
+
+En localhost/phpmyadmin o en el gestor de base de datos, cree una base de datos con el nombre "APAC".
+En localhost/phpmyadmin o en el gestor de base de datos, cree un usuario con el nombre "APAC".
+```
+
+```
+Abrá el archivo .env del proyecto y modifique el nómbre de la base de datos el usuario y la contraseña.
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=APAC
+DB_USERNAME=APAC
+DB_PASSWORD=contraseña
+ 
+```
+
+_Corra las migraciones y seeders:_
+
+_Ingrese los siguientes comandos en su terminal:_
+
+```
+php artisan migrate:fresh --seed
+```
+
+_Corra el proyecto_
+
+_Ingrese los siguientes comandos en su terminal:_
+
+```
+php artisan serve
+Debera mandarte al link http://127.0.0.1:8000
+```
+
+
+## Ejecutando las pruebas ⚙️
+
+_Dentro del sistema se configuraron pruebas automaticas sigue los siguientes pasos para correr las pruebas generales o individuales_
+
+### Analice las pruebas end-to-end 🔩
+
+_Explica que verifican estas pruebas y por qué_
+
+```
+Da un ejemplo
+```
+
+### Y las pruebas de estilo de codificación ⌨️
+
+_Explica que verifican estas pruebas y por qué_
+
+```
+Da un ejemplo
+```
+
+## Despliegue 📦
+
+_Para poder hacer un despliegue sigue los siguientes pasos_
+
+## Construido con 🛠️
+
+_Para el proyecto se utilizaron los siguientes recursos:_
+
+* [Laravel](https://laravel.com/) - Laravel 
+* [XAMPP](https://www.apachefriends.org/download.html) - Manejador de PHP y MySQL
+* [Composer](https://getcomposer.org/) - Manejador de dependencias
+* [PHPStorm](https://www.jetbrains.com/phpstorm/) - IDE preferido (opcional)

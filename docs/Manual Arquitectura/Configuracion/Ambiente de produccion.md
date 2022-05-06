@@ -1,6 +1,6 @@
 ## Hosting
 
-- Breve introduccion al hosting
+- Breve El Proyectoduccion al hosting
 - ¿porqué se uso este hosting?
 
 ## Integración
